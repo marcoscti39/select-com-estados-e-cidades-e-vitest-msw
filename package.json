@@ -1,0 +1,30 @@
+{
+  "name": "select-com-estados-e-cidades",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "jsdom": "^20.0.2",
+    "msw": "^0.48.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vitest": "^0.25.1"
+  }
+}

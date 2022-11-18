@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5rem;
+}
+
+select {
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.input-select-container {
+  position: relative;
+}
+.option-container {
+  border: black solid 2px;
+  transform: scaleY(0);
+  transition: transform 300ms;
+  transform-origin: top;
+  overflow-y: scroll;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+  max-height: 100vh;
+}
+
+.option-container.show-options {
+  transform: scaleY(1);
+}
+
+.input-select-option {
+  width: 100%;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.input-select-option:hover {
+  background-color: rgb(136, 187, 255);
+}
